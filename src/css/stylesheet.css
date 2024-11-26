@@ -15,8 +15,8 @@ body {
 
 nav {
   width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: var(--spacing-xlarge);
+  padding-bottom: var(--spacing-xlarge);
   background-color: var(--color-secondery);
   font-size: larger;
   color: var(--color-text);
@@ -62,12 +62,12 @@ nav {
 }
 
 .product__info-sizeing {
-  padding-top: 1rem;
+  padding-top: var(--spacing-medium);
 }
 
 .product__info-price {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: var(--spacing-medium);
+  padding-bottom: var(--spacing-medium);
 }
 
 .product__info-button {
@@ -91,10 +91,22 @@ a:link,
   border-radius: 9px;
 }
 a:hover {
-  background-color: rgb(89, 22, 15);
+  background-color: var(--color-button);
 }
 
 .product__info-matrial {
+  display: flex;
   font-family: roboto-bold;
-  padding-top: 3rem;
+  padding-top: var(--spacing-xxlarge);
+  font-size: large;
+}
+.product__info-product--details {
+  display: flex;
+  font-family: roboto-bold;
+  padding-top: var(--spacing-xxlarge);
+  font-size: large;
+}
+
+dt {
+  font-size: larger;
 }
