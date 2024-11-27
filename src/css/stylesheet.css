@@ -110,3 +110,9 @@ a:hover {
 dt {
   font-size: larger;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
