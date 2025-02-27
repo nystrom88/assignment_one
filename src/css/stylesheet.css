@@ -24,7 +24,7 @@ nav {
 .section__product {
   display: grid;
   padding: var(--spacing-medium);
-  color: rgb(87, 53, 13);
+  color: var(--color-button);
   grid-template-columns: repeat(2, 1fr);
 }
 .product__girdbox {
@@ -33,27 +33,9 @@ nav {
   grid-template-rows: repeat(2, 1fr);
 }
 
-.product__one-box {
-  display: flex;
-  height: 300px;
-  width: 100%;
-  justify-content: center;
-}
-
-.product__two-box {
-  display: flex;
-  height: 300px;
-  width: 100%;
-  justify-content: center;
-}
-
-.product__three-box {
-  display: flex;
-  height: 300px;
-  width: 100%;
-  justify-content: center;
-}
-
+.product__one-box,
+.product__two-box,
+.product__three-box,
 .product__four-box {
   display: flex;
   height: 300px;
@@ -109,6 +91,26 @@ a:hover {
 
 dt {
   font-size: larger;
+}
+
+.form__checkout {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  flex-direction: row;
+}
+
+.form__checkout--inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.product__form-button--main {
+  display: flex;
+  padding: var(--spacing-medium);
+  align-items: center;
+  justify-self: center;
 }
 
 footer {
