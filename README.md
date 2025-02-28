@@ -8,3 +8,4 @@ This is assignment one where I was to make a web page with a product and checkou
 ## Git repository
 https://github.com/nystrom88/assignment_one
 ## Netlify
+https://timberlands-shop.netlify.app/
